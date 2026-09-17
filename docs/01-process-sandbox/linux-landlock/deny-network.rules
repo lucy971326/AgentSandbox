@@ -1,0 +1,4 @@
+# Landlock 管 TCP 连接。
+# 声明管 connect_tcp，但一条允许规则都不写 = 谁都不准连。
+
+handled_net connect_tcp

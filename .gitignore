@@ -3,3 +3,9 @@ Thumbs.db
 *.swp
 .idea/
 .vscode/
+__pycache__/
+*.pyc
+
+# reference clones are snapshots, not git submodules
+reference/**/.git/
+reference/
